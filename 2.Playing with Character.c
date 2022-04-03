@@ -10,7 +10,7 @@ int main () {
 
     scanf("%c", &ch);
     scanf("%s", s);
-    scanf("\n");
+    scanf("\n"); // berfungsi untuk menghilangkan newline, agar scanf dari sen tidak langsung berhernti (error)
     scanf("%[^\n]%*c", sen);
 
     printf("%c\n", ch);
